@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0C7B5528134CF300A710DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B5428134CF300A710DA /* AppDelegate.swift */; };
+		ED0C7B5728134CF300A710DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B5628134CF300A710DA /* SceneDelegate.swift */; };
+		ED0C7B5928134CF300A710DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B5828134CF300A710DA /* ViewController.swift */; };
+		ED0C7B5C28134CF300A710DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B5A28134CF300A710DA /* Main.storyboard */; };
+		ED0C7B5E28134CF400A710DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B5D28134CF400A710DA /* Assets.xcassets */; };
+		ED0C7B6128134CF400A710DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B5F28134CF400A710DA /* LaunchScreen.storyboard */; };
+		ED0C7B702813508700A710DA /* Fall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B682813508700A710DA /* Fall.jpg */; };
+		ED0C7B712813508700A710DA /* 199-card-hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B692813508700A710DA /* 199-card-hearts.png */; };
+		ED0C7B722813508700A710DA /* Summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B6A2813508700A710DA /* Summer.jpg */; };
+		ED0C7B732813508700A710DA /* Spring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B6B2813508700A710DA /* Spring.jpg */; };
+		ED0C7B742813508700A710DA /* 197-card-diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B6C2813508700A710DA /* 197-card-diamonds.png */; };
+		ED0C7B752813508700A710DA /* Winter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B6D2813508700A710DA /* Winter.jpg */; };
+		ED0C7B762813508700A710DA /* 198-card-spades.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B6E2813508700A710DA /* 198-card-spades.png */; };
+		ED0C7B772813508700A710DA /* 200-card-clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B6F2813508700A710DA /* 200-card-clubs.png */; };
+		ED0C7B792813539900A710DA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B782813539900A710DA /* SecondViewController.swift */; };
+		ED0C7B7B2813547C00A710DA /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B7A2813547C00A710DA /* ThirdViewController.swift */; };
+		ED0C7B7D2813549C00A710DA /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B7C2813549C00A710DA /* FourthViewController.swift */; };
+		ED0C7B812813554E00A710DA /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B802813554E00A710DA /* MyPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED0C7B5128134CF300A710DA /* Ex02-Page-Seasons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ex02-Page-Seasons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0C7B5428134CF300A710DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED0C7B5628134CF300A710DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED0C7B5828134CF300A710DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED0C7B5B28134CF300A710DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED0C7B5D28134CF400A710DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED0C7B6028134CF400A710DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED0C7B6228134CF400A710DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0C7B682813508700A710DA /* Fall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fall.jpg; path = ../../../../Downloads/icons/Fall.jpg; sourceTree = "<group>"; };
+		ED0C7B692813508700A710DA /* 199-card-hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "199-card-hearts.png"; path = "../../../../Downloads/icons/199-card-hearts.png"; sourceTree = "<group>"; };
+		ED0C7B6A2813508700A710DA /* Summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Summer.jpg; path = ../../../../Downloads/icons/Summer.jpg; sourceTree = "<group>"; };
+		ED0C7B6B2813508700A710DA /* Spring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Spring.jpg; path = ../../../../Downloads/icons/Spring.jpg; sourceTree = "<group>"; };
+		ED0C7B6C2813508700A710DA /* 197-card-diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "197-card-diamonds.png"; path = "../../../../Downloads/icons/197-card-diamonds.png"; sourceTree = "<group>"; };
+		ED0C7B6D2813508700A710DA /* Winter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Winter.jpg; path = ../../../../Downloads/icons/Winter.jpg; sourceTree = "<group>"; };
+		ED0C7B6E2813508700A710DA /* 198-card-spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "198-card-spades.png"; path = "../../../../Downloads/icons/198-card-spades.png"; sourceTree = "<group>"; };
+		ED0C7B6F2813508700A710DA /* 200-card-clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "200-card-clubs.png"; path = "../../../../Downloads/icons/200-card-clubs.png"; sourceTree = "<group>"; };
+		ED0C7B782813539900A710DA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ED0C7B7A2813547C00A710DA /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		ED0C7B7C2813549C00A710DA /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		ED0C7B802813554E00A710DA /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED0C7B4E28134CF300A710DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED0C7B4828134CF200A710DA = {
+			isa = PBXGroup;
+			children = (
+				ED0C7B5328134CF300A710DA /* Ex02-Page-Seasons */,
+				ED0C7B5228134CF300A710DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED0C7B5228134CF300A710DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C7B5128134CF300A710DA /* Ex02-Page-Seasons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0C7B5328134CF300A710DA /* Ex02-Page-Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C7B6C2813508700A710DA /* 197-card-diamonds.png */,
+				ED0C7B6E2813508700A710DA /* 198-card-spades.png */,
+				ED0C7B692813508700A710DA /* 199-card-hearts.png */,
+				ED0C7B6F2813508700A710DA /* 200-card-clubs.png */,
+				ED0C7B682813508700A710DA /* Fall.jpg */,
+				ED0C7B6B2813508700A710DA /* Spring.jpg */,
+				ED0C7B6A2813508700A710DA /* Summer.jpg */,
+				ED0C7B6D2813508700A710DA /* Winter.jpg */,
+				ED0C7B5428134CF300A710DA /* AppDelegate.swift */,
+				ED0C7B5628134CF300A710DA /* SceneDelegate.swift */,
+				ED0C7B5828134CF300A710DA /* ViewController.swift */,
+				ED0C7B5A28134CF300A710DA /* Main.storyboard */,
+				ED0C7B5D28134CF400A710DA /* Assets.xcassets */,
+				ED0C7B5F28134CF400A710DA /* LaunchScreen.storyboard */,
+				ED0C7B6228134CF400A710DA /* Info.plist */,
+				ED0C7B782813539900A710DA /* SecondViewController.swift */,
+				ED0C7B7A2813547C00A710DA /* ThirdViewController.swift */,
+				ED0C7B7C2813549C00A710DA /* FourthViewController.swift */,
+				ED0C7B802813554E00A710DA /* MyPageViewController.swift */,
+			);
+			path = "Ex02-Page-Seasons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED0C7B5028134CF300A710DA /* Ex02-Page-Seasons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0C7B6528134CF400A710DA /* Build configuration list for PBXNativeTarget "Ex02-Page-Seasons" */;
+			buildPhases = (
+				ED0C7B4D28134CF300A710DA /* Sources */,
+				ED0C7B4E28134CF300A710DA /* Frameworks */,
+				ED0C7B4F28134CF300A710DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ex02-Page-Seasons";
+			productName = "Ex02-Page-Seasons";
+			productReference = ED0C7B5128134CF300A710DA /* Ex02-Page-Seasons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED0C7B4928134CF200A710DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ED0C7B5028134CF300A710DA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = ED0C7B4C28134CF200A710DA /* Build configuration list for PBXProject "Ex02-Page-Seasons" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED0C7B4828134CF200A710DA;
+			productRefGroup = ED0C7B5228134CF300A710DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0C7B5028134CF300A710DA /* Ex02-Page-Seasons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED0C7B4F28134CF300A710DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0C7B722813508700A710DA /* Summer.jpg in Resources */,
+				ED0C7B6128134CF400A710DA /* LaunchScreen.storyboard in Resources */,
+				ED0C7B772813508700A710DA /* 200-card-clubs.png in Resources */,
+				ED0C7B5E28134CF400A710DA /* Assets.xcassets in Resources */,
+				ED0C7B702813508700A710DA /* Fall.jpg in Resources */,
+				ED0C7B752813508700A710DA /* Winter.jpg in Resources */,
+				ED0C7B742813508700A710DA /* 197-card-diamonds.png in Resources */,
+				ED0C7B712813508700A710DA /* 199-card-hearts.png in Resources */,
+				ED0C7B5C28134CF300A710DA /* Main.storyboard in Resources */,
+				ED0C7B762813508700A710DA /* 198-card-spades.png in Resources */,
+				ED0C7B732813508700A710DA /* Spring.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED0C7B4D28134CF300A710DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0C7B7D2813549C00A710DA /* FourthViewController.swift in Sources */,
+				ED0C7B792813539900A710DA /* SecondViewController.swift in Sources */,
+				ED0C7B812813554E00A710DA /* MyPageViewController.swift in Sources */,
+				ED0C7B5928134CF300A710DA /* ViewController.swift in Sources */,
+				ED0C7B7B2813547C00A710DA /* ThirdViewController.swift in Sources */,
+				ED0C7B5528134CF300A710DA /* AppDelegate.swift in Sources */,
+				ED0C7B5728134CF300A710DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED0C7B5A28134CF300A710DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0C7B5B28134CF300A710DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED0C7B5F28134CF400A710DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0C7B6028134CF400A710DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED0C7B6328134CF400A710DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED0C7B6428134CF400A710DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED0C7B6628134CF400A710DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ex02-Page-Seasons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emich.Ex02-Page-Seasons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED0C7B6728134CF400A710DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ex02-Page-Seasons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emich.Ex02-Page-Seasons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED0C7B4C28134CF200A710DA /* Build configuration list for PBXProject "Ex02-Page-Seasons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0C7B6328134CF400A710DA /* Debug */,
+				ED0C7B6428134CF400A710DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0C7B6528134CF400A710DA /* Build configuration list for PBXNativeTarget "Ex02-Page-Seasons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0C7B6628134CF400A710DA /* Debug */,
+				ED0C7B6728134CF400A710DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED0C7B4928134CF200A710DA /* Project object */;
+}
